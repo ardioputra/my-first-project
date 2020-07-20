@@ -1,8 +1,8 @@
 function calc(){
-    var num1 = parseInt(document.getElementById('num1').value);
-    var num2 = parseInt(document.getElementById('num2').value);
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
     var pil = document.getElementById('pil');
-    var total = document.getElementById('total');
+    var total = parseFloat(document.getElementById('total'));
     var hasilahkir;
     if(isNaN(num1) || isNaN(num2)){
         alert('Angka yang dimasukan tidak valid atau Kosong, Cek Lagi!');
