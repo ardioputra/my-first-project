@@ -1,0 +1,62 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: rgb(0, 255, 255);
+    padding-top: 170px;
+}
+
+.twp{
+    width: auto;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    width: 240px;
+    color:green;
+    font-family:Helvetica;
+    border-bottom:green solid 2px;
+    border-radius: 10px;
+
+}
+
+.content{
+    text-align: center;
+}
+
+.num1, .num2, .total{
+    text-align: center;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.content{
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    margin:10px;
+    border: aqua solid 1px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class='twp'>
+        <h1>Kalkulator Sederhana</h1>
+    </div>
+    <div class="outer">
+        <div class="content">
+            <input class='num1' type='text' id='num1'>
+            <select class="pil" id="pil">
+                <option value='+'>+</option>
+                <option value='-'>-</option>
+                <option value='/'>/</option>
+                <option value='x'>x</option>
+                <option value='%'>%</option>
+                <option value='^'>^</option>
+            </select>
+            <input class='num2' type="text" id='num2'>
+            <input class='sum' type="submit" onclick="calc();" value='='>
+            <input class='total' type="text" id='total'>
+        </div>
+    </div>
+</body>
+</html>
